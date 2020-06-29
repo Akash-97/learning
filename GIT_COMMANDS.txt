@@ -25,6 +25,7 @@ git log --stat
 git log --graph
 git log -n <NUMBER>
 git log --reverse
+git log --oneline
 
 GIT DIFF COMMANDS:
 ------------------------------
