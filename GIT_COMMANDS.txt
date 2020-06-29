@@ -16,6 +16,7 @@ git init .
 git add <FILE>
 git commit
 git rm --cached <FILE>
+git restore --staged <FILE>
 
 GIT COMMIT HISTORY COMMANDS:
 -------------------------------

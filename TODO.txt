@@ -1,3 +1,4 @@
 1. Learn Git.
 2. Learn Core Python3.
 3. Do project in python3.
+4. sleep
