@@ -13,8 +13,11 @@ git config --global core.editor="nano"
 BASIC GIT COMMANDS:
 -------------------------
 git init .
-git add <FILE>
+git add <FILE/DIRECTORY>
 git commit
+
+GIT UNSTAGE COMMANDS:
+-----------------------------
 git rm --cached <FILE>
 git restore --staged <FILE>
 
@@ -36,8 +39,9 @@ git diff <FILE>
 git diff --staged
 
 
-GIT COMMIT COMMANDS:
+GIT UNDO COMMANDS:
 -----------------------
 git checkout <COMMIT ID>
 git checkout master
 git revert <COMMIT ID>
+git reset --soft HEAD~1
