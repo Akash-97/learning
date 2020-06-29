@@ -1,12 +1,24 @@
+STAGES OF A FILE:
+-------------------
+1) Working Tree
+2) Staged
+3) Commited
+
+GIT CONFIG COMMANDS:
+-------------------------------------------------------------
 git config --global user.name "Mariot Tsitoara"
 git config --global user.email "mariot.tsitoara@gmail.com"
 git config --global core.editor="nano"
 
+BASIC GIT COMMANDS:
+-------------------------
 git init .
 git add <FILE>
 git commit
-
 git rm --cached <FILE>
+
+GIT COMMIT HISTORY COMMANDS:
+-------------------------------
 git log --after=<DATE>
 git log --before=<DATE>
 git log --stat
@@ -14,6 +26,8 @@ git log --graph
 git log -n <NUMBER>
 git log --reverse
 
+GIT DIFF COMMANDS:
+------------------------------
 git show <COMMIT ID>
 git diff
 git diff <FILE>
