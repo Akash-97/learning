@@ -32,3 +32,10 @@ git show <COMMIT ID>
 git diff
 git diff <FILE>
 git diff --staged
+
+
+GIT COMMIT COMMANDS:
+-----------------------
+git checkout <COMMIT ID>
+git checkout master
+git revert <COMMIT ID>
