@@ -15,3 +15,6 @@ git log -n <NUMBER>
 git log --reverse
 
 git show <COMMIT ID>
+git diff
+git diff <FILE>
+git diff --cached
