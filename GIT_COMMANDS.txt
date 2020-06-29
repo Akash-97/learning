@@ -9,6 +9,7 @@ GIT CONFIG COMMANDS:
 git config --global user.name "Mariot Tsitoara"
 git config --global user.email "mariot.tsitoara@gmail.com"
 git config --global core.editor="nano"
+git config --local credential.helper store
 
 BASIC GIT COMMANDS:
 -------------------------
@@ -16,7 +17,7 @@ git init .
 git add <FILE/DIRECTORY>
 git commit
 
-GIT UNSTAGE COMMANDS:
+GIT UN-STAGE COMMANDS:
 -----------------------------
 git rm --cached <FILE>
 git restore --staged <FILE>
@@ -38,10 +39,20 @@ git diff
 git diff <FILE>
 git diff --staged
 
-
 GIT UNDO COMMANDS:
 -----------------------
 git checkout <COMMIT ID>
 git checkout master
 git revert <COMMIT ID>
 git reset --soft HEAD~1
+git commit --amend
+
+GIT REMOTE COMMANDS:
+---------------------------
+git remote rm [REMOTE ALIAS]
+git remote add [name] [link]
+
+GIT PUSH COMMANDS:
+----------------------------
+git push <REMOTE ALIAS/REMOTE URL> <LOCAL BRANCH>[:<REMOTE BRANCH>]
+git push <REMOTE ALIAS/RMOTE URL> :<REMOTE BRANCH>
