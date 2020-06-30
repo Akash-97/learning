@@ -10,6 +10,9 @@ git config --global user.name "Mariot Tsitoara"
 git config --global user.email "mariot.tsitoara@gmail.com"
 git config --global core.editor="nano"
 git config --local credential.helper store
+git config --local credential.helper ""
+git config --global credential.helper ""
+
 
 BASIC GIT COMMANDS:
 -------------------------
