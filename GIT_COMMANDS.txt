@@ -59,3 +59,11 @@ GIT PUSH COMMANDS:
 ----------------------------
 git push <REMOTE ALIAS/REMOTE URL> <LOCAL BRANCH>[:<REMOTE BRANCH>]
 git push <REMOTE ALIAS/RMOTE URL> :<REMOTE BRANCH>
+
+GIT BRANCH COMMANDS:
+-----------------------
+git branch <BRANCH_NAME>
+git branch
+git branch --all
+git checkout <BRANCH_NAME>
+git checkout -b <BRANCH_NAME>
