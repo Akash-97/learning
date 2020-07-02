@@ -13,7 +13,6 @@ git config --local credential.helper store
 git config --local credential.helper ""
 git config --global credential.helper ""
 
-
 BASIC GIT COMMANDS:
 -------------------------
 git init .
@@ -73,3 +72,7 @@ git branch -d <BRANCH_NAME>
 GIT MERGE COMMANDS:
 -----------------------------
 git merge <BRANCH_NAME>
+
+GIT PULL COMMANDS:
+------------------------------------------------
+git pull <REMOTE_NAME/URL> <REMOTE_BRANCH_NAME>
