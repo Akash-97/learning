@@ -53,6 +53,7 @@ GIT REMOTE COMMANDS:
 ---------------------------
 git remote rm [REMOTE ALIAS]
 git remote add [name] [link]
+git remote prune <REMOTE ALIAS>
 
 GIT PUSH COMMANDS:
 ----------------------------
