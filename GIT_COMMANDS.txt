@@ -54,6 +54,7 @@ GIT REMOTE COMMANDS:
 git remote rm [REMOTE ALIAS]
 git remote add [name] [link]
 git remote prune <REMOTE ALIAS>
+git remote prune --dry-run <REMOTE ALIAS>
 
 GIT PUSH COMMANDS:
 ----------------------------
@@ -77,7 +78,6 @@ git merge <BRANCH_NAME>
 GIT PULL COMMANDS:
 ------------------------------------------------
 git pull <REMOTE_NAME/URL> <REMOTE_BRANCH_NAME>
-
 
 GIT IMPORTANT URL:
 ------------------------------------------------
