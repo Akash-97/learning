@@ -77,3 +77,8 @@ git merge <BRANCH_NAME>
 GIT PULL COMMANDS:
 ------------------------------------------------
 git pull <REMOTE_NAME/URL> <REMOTE_BRANCH_NAME>
+
+
+GIT IMPORTANT URL:
+------------------------------------------------
+https://github.com/github/gitignore
