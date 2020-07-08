@@ -68,7 +68,7 @@ git branch --all
 git checkout <BRANCH_NAME>
 git checkout -b <BRANCH_NAME>
 git branch -d <BRANCH_NAME>
-
+git branch --unset-upstream
 
 GIT MERGE COMMANDS:
 -----------------------------
