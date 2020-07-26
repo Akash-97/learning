@@ -85,6 +85,9 @@ GIT PUSH COMMANDS:
 git push <REMOTE ALIAS/REMOTE URL> <LOCAL BRANCH>[:<REMOTE BRANCH>]
 git push <REMOTE ALIAS/RMOTE URL> :<REMOTE BRANCH>
 
+GIT TAG COMMANDS:
+-----------------------------
+
 GIT BRANCH COMMANDS:
 -----------------------
 git branch <BRANCH_NAME>
