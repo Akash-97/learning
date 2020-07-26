@@ -35,6 +35,14 @@ GIT UN-STAGE COMMANDS:
 -----------------------------
 git rm --cached <FILE>
 git restore --staged <FILE>
+git reset -- <FILE>
+git reset HEAD <FILE>
+
+GIT UN-MODIFY COMMANDS:
+-----------------------------
+git reset --hard HEAD <FILE>
+git checkout -- <FILE>
+git checkout HEAD <FILE>
 
 GIT COMMIT HISTORY COMMANDS:
 -------------------------------
