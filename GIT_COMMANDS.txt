@@ -6,6 +6,9 @@ STAGES OF A FILE:
 
 GIT CONFIG COMMANDS:
 -------------------------------------------------------------
+git config --system user.name "abc"
+git config --system user.email "abc@def.com"
+git config --system credential.helper store
 git config --global user.name "Mariot Tsitoara"
 git config --global user.email "mariot.tsitoara@gmail.com"
 git config --global core.editor="nano"
