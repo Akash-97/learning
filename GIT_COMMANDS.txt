@@ -67,6 +67,7 @@ git remote rm [REMOTE ALIAS]
 git remote add [name] [link]
 git remote prune <REMOTE ALIAS>
 git remote prune --dry-run <REMOTE ALIAS>
+git remote show <REMOTE ALIAS>
 
 GIT PUSH COMMANDS:
 ----------------------------
