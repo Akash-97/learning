@@ -12,6 +12,8 @@ git config --global core.editor="nano"
 git config --local credential.helper store
 git config --local credential.helper ""
 git config --global credential.helper ""
+git config --global pull.rebase "true"
+git config --global pull.rebase "false"
 
 BASIC GIT COMMANDS:
 -------------------------
