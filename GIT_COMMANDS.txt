@@ -14,6 +14,13 @@ git config --local credential.helper ""
 git config --global credential.helper ""
 git config --global pull.rebase "true"
 git config --global pull.rebase "false"
+git config --list
+git config --list --show-origin
+git config --get user.name
+git config --get user.email
+git config --show-origin --get user.name
+git config --show-origin --get user.email
+git config --show-origin --get credential.helper
 
 BASIC GIT COMMANDS:
 -------------------------
