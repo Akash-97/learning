@@ -70,12 +70,15 @@ git reset --soft HEAD~1
 git commit --amend
 
 GIT REMOTE COMMANDS:
----------------------------
+----------------------------------------------
 git remote rm [REMOTE ALIAS]
 git remote add [name] [link]
 git remote prune <REMOTE ALIAS>
 git remote prune --dry-run <REMOTE ALIAS>
 git remote show <REMOTE ALIAS>
+git remote rename <OLD_ALIAS> <NEW_ALIAS>
+git remote remove <ALIAS>
+git remote rm <ALIAS>
 
 GIT PUSH COMMANDS:
 ----------------------------
