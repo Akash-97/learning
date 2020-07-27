@@ -93,8 +93,8 @@ git tag
 git tag -l "V0.0.*"
 git tag --list "V0.0.*"
 git tag -a <TAG_NAME> <COMMIT> -m <TAG_MESSAGE>  # annotated tags
-git tag <TAG_NAME> # light weight tags
-
+git tag <TAG_NAME> # light weight tag
+git tag <TAG_NAME> <COMMIT> # light weight tag
 
 GIT BRANCH COMMANDS:
 -----------------------
