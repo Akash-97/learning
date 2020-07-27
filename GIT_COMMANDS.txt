@@ -53,6 +53,7 @@ git log --graph
 git log -n <NUMBER>
 git log --reverse
 git log --oneline
+git log -S <FUNCTION_NAME>
 
 GIT DIFF COMMANDS:
 ------------------------------
@@ -87,6 +88,13 @@ git push <REMOTE ALIAS/RMOTE URL> :<REMOTE BRANCH>
 
 GIT TAG COMMANDS:
 -----------------------------
+2 types of tags: light weight tags, annotated tags
+git tag
+git tag -l "V0.0.*"
+git tag --list "V0.0.*"
+git tag -a <TAG_NAME> <COMMIT> -m <TAG_MESSAGE>  # annotated tags
+git tag <TAG_NAME> # light weight tags
+
 
 GIT BRANCH COMMANDS:
 -----------------------
