@@ -98,6 +98,10 @@ git tag <TAG_NAME> # light weight tag
 git tag <TAG_NAME> <COMMIT> # light weight tag
 git push <REMOTE_ALIAS> <TAG_NAME> # push a specific tag
 git push <REMOTE_ALIAS> --tags # push all tags
+git push <REMOTE_ALAIAS> --follow-tags # push only annotated tags
+git tag -d <TAG_NAME>
+git push <REMOTE_ALIAS> :refs/tags/<TAG_NAME>
+git push <REMOTE_ALIAS> --delete <TAG_NAME>
 
 GIT BRANCH COMMANDS:
 -----------------------
