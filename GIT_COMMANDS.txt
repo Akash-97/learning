@@ -85,6 +85,7 @@ GIT PUSH COMMANDS:
 ----------------------------
 git push <REMOTE ALIAS/REMOTE URL> <LOCAL BRANCH>[:<REMOTE BRANCH>]
 git push <REMOTE ALIAS/RMOTE URL> :<REMOTE BRANCH>
+git push <REMOTE_ALIAS> <TAG_NAME>
 
 GIT TAG COMMANDS:
 -----------------------------
@@ -95,6 +96,8 @@ git tag --list "V0.0.*"
 git tag -a <TAG_NAME> <COMMIT> -m <TAG_MESSAGE>  # annotated tags
 git tag <TAG_NAME> # light weight tag
 git tag <TAG_NAME> <COMMIT> # light weight tag
+git push <REMOTE_ALIAS> <TAG_NAME> # push a specific tag
+git push <REMOTE_ALIAS> --tags # push all tags
 
 GIT BRANCH COMMANDS:
 -----------------------
