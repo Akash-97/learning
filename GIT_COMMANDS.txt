@@ -126,6 +126,12 @@ GIT PULL COMMANDS:
 ------------------------------------------------
 git pull <REMOTE_NAME/URL> <REMOTE_BRANCH_NAME>
 
+GIT REBASE COMMANDS:
+------------------------------------------------
+git rebase <TARGET_BRANCH>
+git rebase <TARGET_BRANCH> <SOURCE_BRANCH>
+
 GIT IMPORTANT URL:
 ------------------------------------------------
 https://github.com/github/gitignore
+
