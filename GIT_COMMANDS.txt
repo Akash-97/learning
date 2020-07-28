@@ -80,6 +80,7 @@ git remote show <REMOTE ALIAS>
 git remote rename <OLD_ALIAS> <NEW_ALIAS>
 git remote remove <ALIAS>
 git remote rm <ALIAS>
+git ls-remote <ALIAS>
 
 GIT PUSH COMMANDS:
 ----------------------------
@@ -113,6 +114,8 @@ git checkout -b <BRANCH_NAME>
 git branch -d <BRANCH_NAME>
 git branch --unset-upstream
 git branch -m <NEW_BRANCH_NAME>
+git branch --merged
+git branch --no-merged
 
 GIT MERGE COMMANDS:
 -----------------------------
